@@ -7,7 +7,6 @@
 }
 body {
   background-color: var(--background-color);
- 
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -18,31 +17,39 @@ h1 {
   color: var(--secondary-color);
 }
 
-@media (min-width: 750px) {
+@media (max-width: 750px) {
   .hero {
     text-align: center;
     font-size: 20px;
   }
+  .about-me {
+    text-align: center;
+  }
+  .text-about {
+    margin-top: 20px;
+  }
+  .gallery-heading {
+    font-size: 20px;
+  }
 }
-.about-me{
+.about-me {
   margin: 70px 0;
- 
 }
-.text-about{
+
+.text-about {
   background-color: black;
-font-family: var(--heading-font-family);
+  font-family: var(--heading-font-family);
 }
 .about-me h3 {
-  color: #F65282;
+  color: #f65282;
   font-size: 18px;
 }
 .about-me h1 {
-font-size: 64px;
-font-weight: 500;
+  font-size: 64px;
+  font-weight: 500;
 }
 .about-me p {
   color: var(--secondary-color);
-
 }
 
 .footer {
@@ -54,10 +61,10 @@ font-weight: 500;
 .hero {
   text-align: center;
   background-image: url(/image/backgroundmain.jpg);
-  
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--secondary-color);
   margin: 100px 0;
 }
@@ -79,4 +86,8 @@ font-weight: 500;
   border-radius: 50px;
   margin-bottom: 10px;
   font-family: var (--default-font-family);
+}
+.gallery-heading {
+  font-size: 72px;
+  font-family: var(--heading-font-family);
 }
