@@ -91,3 +91,24 @@ h1 {
   font-size: 72px;
   font-family: var(--heading-font-family);
 }
+.contact-info {
+  font-family: var(--heading-font-family);
+}
+.contact-info h3 {
+  color: var(--secondary-color);
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact-info a {
+  color: var(--secondary-color);
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact-info p {
+  color: #f65282;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 700;
+}
