@@ -31,6 +31,12 @@ h1 {
   .gallery-heading {
     font-size: 20px;
   }
+  .contact-info h1 {
+    font-size: 25px;
+  }
+  .contact-info h3 {
+    font-size: 15px;
+  }
 }
 .about-me {
   margin: 70px 0;
