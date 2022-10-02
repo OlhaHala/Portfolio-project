@@ -13,7 +13,7 @@ h1 {
   font-weight: 700;
   font-size: 72px;
   line-height: 84px;
-  padding: 2px;
+
   color: var(--secondary-color);
 }
 
@@ -31,13 +31,14 @@ h1 {
   .gallery-heading {
     font-size: 20px;
   }
-  .contact-info h1 {
+  h1 {
     font-size: 25px;
   }
   .contact-info h3 {
     font-size: 15px;
   }
 }
+
 .about-me {
   margin: 70px 0;
 }
@@ -50,10 +51,7 @@ h1 {
   color: #f65282;
   font-size: 18px;
 }
-.about-me h1 {
-  font-size: 64px;
-  font-weight: 500;
-}
+
 .about-me p {
   color: var(--secondary-color);
 }
@@ -94,7 +92,6 @@ h1 {
   font-family: var (--default-font-family);
 }
 
-
 .gallery-heading {
   font-size: 72px;
   font-family: var(--heading-font-family);
@@ -120,18 +117,17 @@ h1 {
   line-height: 16.41px;
   font-weight: 700;
 }
-.social-links i{
+.social-links i {
   color: var(--secondary-color);
   text-decoration: none;
   font-size: 20px;
   line-height: 19px;
 }
-.social-links a :hover{
- transition:  all 100ms ease-in-out;
- color:#f65282;
+.social-links a :hover {
+  transition: all 100ms ease-in-out;
+  color: #f65282;
 }
 .gallery {
   background-color: #f65282;
   font-size: 18px;
-
 }
